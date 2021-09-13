@@ -25,15 +25,15 @@
     0%,100%{
         background-image: url(Image1.jpeg);
     }
-    25%{
+    33%{
         background-image: url(image2.jpeg);
     }
-    50%{
+    66%{
         background-image: url(Image3.jpeg) ;
     }
-    75%{
+    /* 75%{
         background-image: url(Image3.jpeg);
-    }
+    } */
 }
 .showcase.active{
     right: 300px;
