@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <title >Passion for Travel</title>
+</head>
+
+<body>
+    <section class="showcase">
+
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <div class="text">
+
+            <h2>Never Stop</h2>
+
+            <h3>Exploring The World</h3>
+
+            <p> Afoot and light-hearted I take to the open road,
+                Healthy, free, the world before me,
+                The long brown path before me leading me wherever I choose,
+                Henceforth I ask not good-fortune, I myself am good-fortune,
+                Henceforth I whimper no more, postpone no more, need nothing,
+                Done with indoor complaints, libraries, querulous criticisms,
+                Strong and content I travel the open road.</p>
+
+            <a href="Explore.html">Explore</a>
+
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/tarun.srivastav.28/" target="_blank"><img
+                        src="Images/002-facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/tchalamet/" target="_blank"><img src="Images/001-instagram.png"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/feed/?trk=cold_join_sign_in" target="_blank"><img
+                        src="Images/003-linkedin.png"></a></li>
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="https://news.google.com/topstories" target="_blank">News</a></li>
+            <li><a href="https://www.britannica.com/place/Norway" target="_blank">Destinaion</a></li>
+            <li><a href="https://www.travel-break.net/" target="_blank">Blog</a></li>
+            <li><a href="#" target="_blank">Help</a></li>
+        </ul>
+    </div>
+
+    <script defer>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
