@@ -11,15 +11,14 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-left: 25vw;
+    justify-content: center;
+    margin: 10vh 8vw 0 23vw ;
 }
 
 .item{
     text-align: center;
-    border: 3px solid white;
+    border: 2px solid white;
     padding: 10px;
-    /* margin: auto; */
     transition: 0.1s ease-in-out;
     cursor: pointer;
     font-weight: 400;
@@ -27,7 +26,9 @@
 .item:hover{
     color: black;
     background-color: white;
+    transform: scale(1.2);
+    font-weight: 600;
 }
 .item:active{
-    transform: scale(0.9);
+    transform: scale(1.1);
 }

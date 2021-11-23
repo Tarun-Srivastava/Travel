@@ -145,7 +145,7 @@
     transition: 0.5s;
 }
 .social li a:hover{
-    transform: translateY(-5px);
+    transform: scale(1.2);
 }
 .menu{
     position:absolute;
